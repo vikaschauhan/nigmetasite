@@ -1,8 +1,7 @@
 html {
-    background: #505D6E url('../images/image10.png') no-repeat center center fixed;
+     background:  -webkit-linear-gradient(0deg, #EB3349 10%, #F45C43 90%);
+     background: linear-gradient(90deg, #EB3349 10%, #F45C43 90%); /* W3C */
     min-height: 100%;
-    background-size: cover;
-    background-blend-mode: multiply, normal;
 }
 body {
     background: transparent;
@@ -75,32 +74,8 @@ a:active {
     color: #fff;
     text-decoration: underline;
 }
-.title,
-.subtitle {
-    font-family: 'Wire One', Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-size: 7em;
-    margin-bottom: 15px;
-    color: #FDF9F4;
-    line-height: 1em;
-}
-.subtitle {
-    line-height: .9em;
-    font-size: 5.5em;
-    margin-top: 0;
-    margin-bottom: 40px;
-}
-.tagline {
-    font-size: 1.4em;
-    line-height: 1.3em;
-    font-weight: normal;
-    margin-bottom: 75px;
-}
-@media (max-width: 767px) {
-    .lead {
-        font-size: 1.3em;
-    }
-}
+
+
 html,
 html a {
     -webkit-font-smoothing: antialiased !important;
@@ -120,67 +95,7 @@ html a {
 p {
     margin-bottom: 0
 }
-/********************************************************/
 
-/*                   UI - Buttons                       */
-
-/********************************************************/
-
-.btn {
-    color: #333;
-    text-shadow: none;
-    text-decoration: none;
-    border-radius: 3px;
-    border: 0 none;
-}
-.btn:hover {
-    color: #000;
-}
-.btn-lg {
-    padding: 16px 30px;
-    font-size: inherit;
-}
-.btn-link {
-    color: rgba(255, 255, 255, .8);
-}
-.btn-link:hover,
-.btn-link:focus,
-.btn-link:active {
-    color: #fff
-}
-.btn-default {
-    background: rgba(255, 255, 255, .5);
-}
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active,
-.btn-default.active {
-    background: rgba(255, 255, 255, .8);
-}
-.btn-primary {
-    background: rgba(255, 255, 255, .2);
-}
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary:active {
-    background: rgba(255, 255, 255, .6);
-}
-/********************************************************/
-
-/*                 UI - Thumbnails                      */
-
-/********************************************************/
-
-.thumbnail {
-    background-color: rgba(255, 255, 255, .3);
-    border: 0 none;
-    padding: 10px;
-    border-radius: 2px;
-}
-.thumbnail .caption {
-    color: inherit;
-}
 /********************************************************/
 
 /*                 Everything else                      */
@@ -233,7 +148,7 @@ p {
 }
 .sp-container h1 {
     position: absolute;
-    font-size: 50px;
+    font-size: 5em;
     text-align: center;
     color: transparent;
     -webkit-animation: blurFadeInOut 3s ease-in backwards;
